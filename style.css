@@ -1,0 +1,132 @@
+html, * {
+    box-sizing: border-box;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+body {
+    overflow:hidden;
+    font-size:32px;
+    /* font-family: "source-han-serif-sc", serif; */
+    font-family: "tt-songti-chs-variable", sans-serif;
+        font-variation-settings: "wght" 100;
+    color:white;
+}
+
+.start {
+    position:fixed;
+    z-index:10;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    /* ??How do I get rid of that weird extra space on the right? */
+    max-width:50%;
+    /* background:blue; */
+    transition: opacity .5s;
+}
+
+.big_container {
+    display:flex;
+    flex-flow: colum wrap;
+}
+
+.container_1, .container_2 {
+    width:50vw;
+    height:100vh;
+    overflow: hidden;
+    background:black;
+    cursor:pointer;
+    position:relative;
+}
+
+.container_1 {
+ /* background:blue; */
+}
+
+.container_2 {
+/* background:pink; */
+}
+
+.label {
+    /* background:purple; */
+    position:absolute;
+    z-index:10;
+    top:50%;
+    max-width:50vw;
+    transform:translateY(-50%);
+    display:none;
+
+    padding: 0 2rem;
+
+    opacity: 0;
+    transition: opacity .5s;
+    pointer-events: none;
+    color:white;
+}
+
+.container_1 .label {
+    left:0em;
+}
+
+.container_2 .label {
+    right:0em;
+}
+
+.container_1:hover .label, .container_2:hover .label {
+    opacity:1;
+}
+
+video {
+    min-width:100%;
+    min-height:100%;
+    width:100%;
+    height:auto;
+    object-fit:cover;
+     /* filter:blur(2px); */
+     transition: filter .3s;
+}
+
+video.lx {
+    z-index:2;
+    left: 0;
+}
+video.kk {
+    z-index:1;
+    right:0;
+}
+
+.objects {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 10;
+    width:50vw;
+    /* background:pink; */
+
+    padding: 2rem;
+
+    color:white;
+    font-size:.5em;
+}
+
+.container_1 video {
+}
+
+.container_2 video {
+
+    /* transform: translateX(-55%); */
+}
+
+audio {
+    display:none;
+}

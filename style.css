@@ -163,15 +163,6 @@ audio {
     border-radius: 6px;
 }
 
-.context a, .context a:link {
-    text-decoration: none;
-    color:white;
-}
-
-.context a:hover, .context a:active {
-    color: blue;
-}
-
 .exit_btn {
     position: fixed;
         z-index: 9;
@@ -206,7 +197,22 @@ audio {
 .star_2 p,
 .star_3 p {
     display: inline-block;
-    
+    color:white;
+}
+
+.context a,
+.context a:link,
+.context a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.context a:hover,
+.context a:active, 
+.star_1 p:hover, .star_1 p:active,
+.star_2 p:hover, .star_2 p:active,
+.star_3 p:hover, .star_3 p:active {
+    color: blue;
 }
 
 

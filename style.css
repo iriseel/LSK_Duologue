@@ -163,8 +163,13 @@ audio {
     border-radius: 6px;
 }
 
-.context a {
+.context a, .context a:link {
     text-decoration: none;
+    color:white;
+}
+
+.context a:hover, .context a:active {
+    color: blue;
 }
 
 .exit_btn {
@@ -184,9 +189,6 @@ audio {
     right: 0;
 }
 
-.context a:visited {
-    color: white;
-}
 
 /* BACKGROUND STARS */
 
@@ -194,8 +196,8 @@ audio {
 .star-2,
 .star-3 {
     display: inline-block;
-    /* background:rgba(255,255,255,.3); */
-    text-shadow: 0 0 5px #fff, 0 0 15px #FFCA14, 0 0 25px #FFCA14, 0 0 30px #FFCA14;
+    text-shadow: 0 0 5px #fff, 0 0 10px #FFCA14, 0 0 15px #FFCA14;
+    /* text-shadow: 0 0 5px #fff, 0 0 15px #FFCA14, 0 0 25px #FFCA14, 0 0 30px #FFCA14; */
 
     /* background:blue; */
 }

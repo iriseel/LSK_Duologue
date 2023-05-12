@@ -102,8 +102,18 @@ let kk_links = [
     },
     {
         excerpt:
-            "Reverence and love for Mao is, paradoxically, often voiced by those who suffered most during the Cultural Revolution and earlier. ... Mao comes to stand for the old and cherished values in a world gone by and, increasingly, he becomes the stuff that makes Chinese society, disintegrating quickly with the effects of socialist capitalism, hold together.",
+            "Reverence and love for Mao is, paradoxically, often voiced by those who suffered most during the Cultural Revolution and earlier. ... Mao comes to stand for the old and cherished values in a world gone by and, increasingly, he becomes the stuff that makes Chinese society, disintegrating quickly with the effects of socialist capitalism, hold together.”",
         url: "http://www.jstor.org/stable/40541604",
+    },
+    {
+        excerpt:
+            "“在我们这辈人看来，样板戏剧像现在我们做的那种音乐一样。比较，怎么说呢，结合的特别……挺另类的。 ……但唯一的区别就是它有政治性。”",
+        url: "https://vimeo.com/114648184",
+    },
+    {
+        excerpt:
+            "“在最近在大光明电影院，又把这个（样板）戏上演了。他说很多人来买票。很多的，三天的票已卖光。而且特别是中学生大学生，都是年轻人。",
+        url: "https://vimeo.com/114648184",
     },
     {
         excerpt: "重庆：红歌大联唱「快闪」",

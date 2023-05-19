@@ -153,11 +153,11 @@ let lx_links = [
             "“In politics, economics and every kind of cultural work, it [pinyin] has very important value. China is a country of many dialects, and hanyu pinyin helps the realising of a common language for the entire nation.”",
         url: "https://www.theguardian.com/world/2008/feb/21/china",
     },
-    {
-        excerpt:
-            "However, he [Zhou Youguang] was denounced as a reactionary academic during the Cultural Revolution in the late Sixties, and exiled to the countryside. Zhou, who still produces a paper a month from his modest flat in Beijing, is cheered to see that pinyin is growing ever more useful.",
-        url: "https://www.theguardian.com/world/2008/feb/21/china",
-    },
+    // {
+    //     excerpt:
+    //         "However, he [Zhou Youguang] was denounced as a reactionary academic during the Cultural Revolution in the late Sixties, and exiled to the countryside. Zhou, who still produces a paper a month from his modest flat in Beijing, is cheered to see that pinyin is growing ever more useful.",
+    //     url: "https://www.theguardian.com/world/2008/feb/21/china",
+    // },
     {
         excerpt:
             "[Wang Yongmin:] When we use Pinyin to type, we lose sight of the Chinese characters form and the form is the soul of a character. It's like you're grabbing hold of a person and doing a way with their flesh. You can't express the meaning of a Chinese character by its sound. The more people use Pinyin, the more screwed Chinese characters are.",
@@ -168,6 +168,22 @@ let lx_links = [
         excerpt:
             "Tom: Wow. Wait, but then he's made this thing that is so blazingly fast and also is able to preserve Chinese way of writing, goes back thousands of years, why is it that these other input methods, these phonetic based methods are winning in terms of usage? <br><br> Simon: Right, well, the reason there is pretty much the Chinese government. The Chinese state promotes the idea of phonetic based input systems, really for one major reason. One of the same reasons they prioritize teaching Pinyin in school.  <br><br> Jad: The unification of the Chinese language.",
         url: "https://radiolab.org/podcast/wubi-effect",
+    },
+
+    {
+        excerpt:
+            "Zhou [Youguang] is especially thankful his peers allowed him to base pinyin on the roman alphabet. “I met with great resistance from them over that issue,” he says. “But I insisted on it. Perhaps it was due to my time overseas but I always envisaged pinyin being useful to foreigners, too. I still see it as a bridge between China and the rest of the world, a bridge between cultures.”",
+        url: "http://www.china.org.cn/books&magazines/2009-03/26/content_17504026.htm",
+    },
+    {
+        excerpt:
+            "It is not unreasonable to see pinyin's usefulness here and overseas as a death knell for Chinese characters but Zhou rejects the notion. “If you want to use pinyin to write Chinese, that's OK but it only exists as an aid for Chinese characters, not to replace them. If that were not official policy people would oppose its use altogether. Could the characters ever be cast aside? Not for a thousand years - or more.”",
+        url: "http://www.china.org.cn/books&magazines/2009-03/26/content_17504026.htm",
+    },
+    {
+        excerpt:
+            "Too many of his [Zhou's] memories are now in his mind alone. ”During the 'cultural revolution' (1966-76) I was sent to the countryside to be re-educated by the farmers,” he says, without a hint of resentment. “During that time my house was occupied and all my photographs - with Mao, with my pinyin research colleagues - were destroyed.”",
+        url: "http://www.china.org.cn/books&magazines/2009-03/26/content_17504026.htm",
     },
     {
         excerpt:
